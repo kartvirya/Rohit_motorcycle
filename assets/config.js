@@ -2,8 +2,8 @@
 window.SHOP = {
   name: "Rohit Motorcycle",
   tagline: "Trusted bike repair & service workshop",
-  phone: "+91 00000 00000",          // TODO: real phone number
-  whatsapp: "910000000000",          // TODO: country code + number, digits only
+  phone: "+977 982-1862087",          
+  whatsapp: "9779821862087",          // Nepal +977, digits only
   address: "TODO: paste address from Google Maps listing",
   hours: "Mon–Sat: 9:00 AM – 7:00 PM · Sun: Closed",
   mapsLink: "https://maps.app.goo.gl/KPSihs7qpxYHUJ2z9",

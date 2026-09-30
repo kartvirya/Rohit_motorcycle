@@ -15,4 +15,13 @@
   if (s.mapsEmbed) m.innerHTML = '<iframe src="' + s.mapsEmbed + '" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>';
   else m.remove();
   document.getElementById("yr").textContent = new Date().getFullYear();
+  var icons = ["🏍️","🔧","🛞","🛢️","⚡","🔩"], g = document.getElementById("gal");
+  icons.forEach(function (ic, i) {
+    var d = document.createElement("div"); d.className = "tile"; d.innerHTML = "<span>" + ic + "</span>";
+    var im = new Image(); im.alt = s.name + " photo " + (i + 1); im.loading = "lazy";
+    im.onload = function () { d.innerHTML = ""; d.appendChild(im); };
+    im.src = "assets/img/" + (i + 1) + ".jpg"; g.appendChild(d);
+  });
+  var io = new IntersectionObserver(function (es) { es.forEach(function (e) { if (e.isIntersecting) e.target.classList.add("in"); }); });
+  q("article,.tile,.stats>div").forEach(function (e) { e.classList.add("rv"); io.observe(e); });
 })();
