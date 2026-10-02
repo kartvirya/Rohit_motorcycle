@@ -2,8 +2,8 @@
 window.SHOP = {
   name: "Rohit Motorcycle",
   tagline: "Trusted bike repair & service workshop",
-  phone: "+977 982-1862087",          
-  whatsapp: "9779821862087",          // Nepal +977, digits only
+  phone: "+977 9864199458",          
+  whatsapp: "9779864199458",          // Nepal +977, digits only
   address: "पच्चकन्या मार्ग, Kathmandu, Bagmati Province 44600, Nepal (Plus Code: P965+RM)",
   hours: "Mon–Sat: 9:00 AM – 7:00 PM · Sun: Closed",
   mapsLink: "https://maps.app.goo.gl/KPSihs7qpxYHUJ2z9",
